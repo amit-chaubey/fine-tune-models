@@ -1,0 +1,31 @@
+# Core ML libraries
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.12.0
+accelerate>=0.20.0
+scipy>=1.10.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+evaluate>=0.4.0
+
+# Utilities
+tqdm>=4.65.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+tensorboard>=2.12.0
+wandb>=0.15.0
+jsonlines>=3.1.0
+pyyaml>=6.0
+boto3>=1.26.0  # For AWS S3 storage
+
+# Optional - based on specific model needs
+sentencepiece>=0.1.99
+tokenizers>=0.13.0
+bitsandbytes>=0.39.0  # For quantization
+optimum>=1.8.0  # For model optimization
+einops>=0.6.0  # For tensor manipulations 
+
+# For training
+torchmetrics>=1.1.0
+pytorch-lightning>=2.0.0
+
