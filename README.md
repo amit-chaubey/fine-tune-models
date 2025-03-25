@@ -61,4 +61,4 @@ List of dependencies and requirements for running the models.
 
 ## License
 
-Add your license information here. 
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
